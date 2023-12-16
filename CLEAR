@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-if [ $(su -c cat /data/totok) == onc1 ]
+if [ $(su -c cat /data/totok) != onc1 ]
 then echo "ok"
 else su -c reboot
 fi
